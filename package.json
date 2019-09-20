@@ -1,0 +1,23 @@
+{
+  "name": "quick-dirty-mailer",
+  "version": "0.0.1",
+  "description": "send emails the dirtiest way!",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillermo Chavez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mailgun-js": "^0.22.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0"
+  },
+  "engines": {
+    "node" : "12.x"
+  }
+}
