@@ -12,12 +12,11 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "mailgun-js": "^0.22.0"
-  },
-  "devDependencies": {
+    "mailgun-js": "^0.22.0",
     "dotenv": "^8.1.0"
   },
   "engines": {
-    "node" : "12.x"
+    "node": "12.x",
+    "npm": "6.x"
   }
 }
