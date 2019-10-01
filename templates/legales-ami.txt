@@ -1,0 +1,18 @@
+Nombre: 
+<%= nombre %>
+
+--------------------------
+Correo Electónico: 
+<%= email %>
+
+--------------------------
+Número de Teléfono: 
+<%= telefono %>
+
+--------------------------
+Servicio interesado: 
+<%= servicio %>
+
+--------------------------
+Mensaje: 
+<%= mensaje %> 
