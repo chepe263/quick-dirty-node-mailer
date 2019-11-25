@@ -81,7 +81,7 @@ app.post('/mail-ami', (req, res) => {
 			
 		});
     const data = {
-        from: 'Formulario Contacto <no-reply-legales-ami@ptypages.ga>',
+        from: process.env.MAIL_FROM_LEGALES_AMI || 'Formulario Contacto <no-reply-legales-ami@ptypages.ga>',
         to: process.env.MAIL_TO_LEGALES_AMI,
         subject: 'Formulario de Contacto',
         text: compiled_text,
